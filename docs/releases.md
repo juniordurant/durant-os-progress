@@ -6,44 +6,25 @@
 
 Date: March 28, 2026
 
-Highlights:
+Status:
 
-- public-facing milestone update prepared alongside private product progression docs
 - iOS archive produced successfully
 - App Store Connect upload completed successfully
-- build entered the TestFlight processing pipeline
+- build entered Apple processing after upload
+- public progress materials updated alongside the private product work
 
-## Recent Milestones
+## Recent Milestone Log
 
-### March 28, 2026
-
-- explicit dispatch workflow added to jobs
-- engineer accept / decline workflow added
-- `Engineer Standby` added as a supported commercial job type
-- customer, finance, and extraction work expanded further
-- docs updated to reflect platform progression
-
-### March 27, 2026
-
-- sync queue flushing improved for better performance under backlog
-
-### March 25, 2026
-
-- finance capture expanded
-- LOLER intelligence expanded
-- Outlook capture for finance records added
-- payables workspace and VAT automation added
-
-### March 8, 2026
-
-- portal PDF publishing expanded
-- company documents and portal improvements shipped
-- portal data flows expanded
-- restore-point and rollback tooling improved
+| Date | Milestone | What moved |
+| --- | --- | --- |
+| March 28, 2026 | Dispatch workflow and broader platform progression | Jobs gained explicit dispatch and engineer response flow, while customer, finance, and extraction work expanded further |
+| March 27, 2026 | Sync runtime improvement | Queue flushing and sync throughput improved under backlog conditions |
+| March 25, 2026 | Finance and assisted workflow expansion | Finance capture, Outlook intake, payables, VAT automation, and LOLER intelligence moved forward together |
+| March 8, 2026 | Portal and recovery expansion | Portal publishing, company documents, and rollback/recovery tooling were expanded |
 
 ## Release Direction
 
-The release pattern shows a clear shift:
+The recent release pattern shows a consistent shift:
 
 - from isolated records to linked workflows
 - from hidden operational assumptions to explicit workflow states
