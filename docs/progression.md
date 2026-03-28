@@ -1,12 +1,12 @@
 # Progression
 
-## Overview
+## 🚀 Overview
 
 DurantOS started as a lightweight admin tool. It is now moving toward an internal operating system for lift-service delivery.
 
-The main direction is not "more forms." The direction is tighter coordination between planning, field work, reporting, billing, document delivery, and follow-up.
+The direction is not just "more forms." The direction is tighter coordination between planning, field work, reporting, billing, document delivery, and follow-up.
 
-## Jobs And Field Delivery
+## 🚚 Jobs And Field Delivery
 
 The jobs workflow has moved from a simpler assigned/completed model into a clearer office-to-field chain.
 
@@ -19,9 +19,11 @@ Recent progression includes:
 - required decline reasons so refused jobs return to office review with context
 - dedicated office workflow buckets for active, dispatched, declined, completed, and finished work
 
-This matters because planning, dispatch, acknowledgement, and completion are now separate operational states instead of hidden assumptions.
+Why it matters:
 
-## Engineer Mobile Flow
+Planning, dispatch, acknowledgement, and completion are now separate operational states instead of hidden assumptions.
+
+## 📲 Engineer Mobile Flow
 
 Engineer mobile work has also been tightened.
 
@@ -32,9 +34,11 @@ Progression includes:
 - active jobs no longer lingering in planned views
 - clearer empty states around job receipt and acceptance
 
-The effect is a more reliable handoff between office dispatch and field execution.
+Why it matters:
 
-## Customer Records And Intake
+The handoff between office dispatch and field execution is more reliable and easier to trust.
+
+## 🏢 Customer Records And Intake
 
 Customer data has expanded from a minimal contact record into a more commercial and operational record.
 
@@ -48,9 +52,11 @@ Progression includes:
 - website-originated customer intake records
 - intake approval that can create both the customer record and linked service sites
 
-The platform is increasingly using customer data for real routing, billing, and document delivery, so a flat contact model is no longer enough.
+Why it matters:
 
-## Finance
+The platform is increasingly using customer data for routing, billing, and document delivery, so a flat contact model is no longer enough.
+
+## 💷 Finance
 
 Finance is now a connected workflow area rather than a passive invoice store.
 
@@ -66,9 +72,11 @@ Progression includes:
 - VAT-aware expense and payable handling
 - finance attachment capture from connected mailboxes
 
-This is moving the product toward a proper receivables and finance-control layer.
+Why it matters:
 
-## LOLER And Review
+This is moving the product toward a real receivables and finance-control layer.
+
+## 🧠 LOLER And Review
 
 LOLER work has progressed in two directions at once: stronger extraction and stronger review.
 
@@ -80,9 +88,11 @@ Progression includes:
 - fewer silent drops at final save
 - clearer unit-level visibility for outstanding LOLER actions
 
-This keeps the intelligence layer reviewable instead of opaque.
+Why it matters:
 
-## Sync And Runtime
+The intelligence layer stays reviewable instead of becoming opaque.
+
+## 🔄 Sync And Runtime
 
 Sync has been treated as a product capability, not just background plumbing.
 
@@ -94,5 +104,7 @@ Progression includes:
 - bounded concurrency on push and pull
 - safer id normalization across queued work
 - better handling of larger queues and retry-heavy states
+
+Why it matters:
 
 This work matters most on real devices, where offline and degraded-network behavior define trust in the product.

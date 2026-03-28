@@ -1,6 +1,6 @@
 # Product Shape
 
-## What DurantOS Is Becoming
+## 🧭 What DurantOS Is Becoming
 
 DurantOS is evolving into an internal command system for lift operations.
 
@@ -12,7 +12,7 @@ The shape of the platform is now defined by workflow continuity:
 - finance follow-through
 - customer-facing document flow
 
-## Core Business Graph
+## 🕸️ Core Business Graph
 
 The platform links:
 
@@ -29,11 +29,11 @@ The platform links:
 - documents
 - portal accounts
 
-That shared model is important because business work rarely starts and ends inside one screen or one department.
+That shared model matters because real business work rarely starts and ends inside one screen or one department.
 
-## Public View Of The Direction
+## ✨ Public View Of The Direction
 
-The product direction is increasingly clear:
+The public direction is increasingly clear:
 
 - fewer disconnected handoffs
 - clearer field acknowledgement
@@ -42,7 +42,7 @@ The product direction is increasingly clear:
 - more reliable sync under real-world conditions
 - more reviewable document intelligence
 
-## Why A Public Progress Repo Exists
+## 📣 Why A Public Progress Repo Exists
 
 DurantOS is private software, but the pace and direction of product work are still useful to show publicly.
 

@@ -1,6 +1,6 @@
 # Releases
 
-## Current Release
+## 🚀 Current Release
 
 ### 0.80.0 (764)
 
@@ -8,12 +8,12 @@ Date: March 28, 2026
 
 Status:
 
-- iOS archive produced successfully
-- App Store Connect upload completed successfully
-- build entered Apple processing after upload
-- public progress materials updated alongside the private product work
+- ✅ iOS archive produced successfully
+- ✅ App Store Connect upload completed successfully
+- ⏳ build entered Apple processing after upload
+- 📰 public progress materials updated alongside the private product work
 
-## Recent Milestone Log
+## 🗓️ Recent Milestone Log
 
 | Date | Milestone | What moved |
 | --- | --- | --- |
@@ -22,7 +22,7 @@ Status:
 | March 25, 2026 | Finance and assisted workflow expansion | Finance capture, Outlook intake, payables, VAT automation, and LOLER intelligence moved forward together |
 | March 8, 2026 | Portal and recovery expansion | Portal publishing, company documents, and rollback/recovery tooling were expanded |
 
-## Release Direction
+## 📈 Release Direction
 
 The recent release pattern shows a consistent shift:
 
