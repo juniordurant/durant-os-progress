@@ -4,7 +4,7 @@
 
 DurantOS started as a lightweight admin tool. It is now moving toward an internal operating system for lift-service delivery.
 
-The direction is not just "more forms." The direction is tighter coordination between planning, field work, reporting, billing, document delivery, and follow-up.
+The direction is not “more forms.” The direction is tighter coordination between planning, field work, notifications, review, billing, documents, and follow-up.
 
 ## 🚚 Jobs And Field Delivery
 
@@ -12,12 +12,13 @@ The jobs workflow has moved from a simpler assigned/completed model into a clear
 
 Recent progression includes:
 
-- `Engineer Standby` as a first-class job type instead of ad hoc free text
+- `Engineer Standby` as a first-class job type
 - invoice creation support for standby work
-- explicit dispatch state on jobs instead of treating engineer assignment as delivery
+- explicit dispatch state on jobs instead of treating assignment as delivery
 - field acknowledgement through `Accept` and `Decline`
-- required decline reasons so refused jobs return to office review with context
-- dedicated office workflow buckets for active, dispatched, declined, completed, and finished work
+- required decline reasons so refused jobs return to office review
+- office workflow buckets for active, dispatched, declined, completed, and finished work
+- undispatch support when work needs to return to dispatch planning
 
 Why it matters:
 
@@ -25,18 +26,34 @@ Planning, dispatch, acknowledgement, and completion are now separate operational
 
 ## 📲 Engineer Mobile Flow
 
-Engineer mobile work has also been tightened.
+Engineer mobile flow has also been tightened.
 
 Progression includes:
 
 - current-job state aligned with planner state
 - accepted jobs moving into the engineer workflow cleanly
 - active jobs no longer lingering in planned views
-- clearer empty states around job receipt and acceptance
+- dispatch notifications reaching engineer phones through the new Azure-backed notification path
 
 Why it matters:
 
-The handoff between office dispatch and field execution is more reliable and easier to trust.
+The handoff between office dispatch and field execution is becoming more reliable and easier to trust.
+
+## 🔔 Notifications And Live Runtime
+
+The platform is moving beyond “sync when someone remembers.”
+
+Recent progression includes:
+
+- Azure-backed engineer device registration
+- engineer dispatch notifications for mobile delivery
+- realtime refresh for key operational containers
+- faster propagation for jobs, quotes, and invoices
+- better queue handling during rapid consecutive edits
+
+Why it matters:
+
+Operational systems need both immediate awareness and reliable fallback, not just background sync.
 
 ## 🏢 Customer Records And Intake
 
@@ -71,10 +88,26 @@ Progression includes:
 - payables workspace
 - VAT-aware expense and payable handling
 - finance attachment capture from connected mailboxes
+- stronger invoice safety in both local persistence and cloud sync behavior
 
 Why it matters:
 
-This is moving the product toward a real receivables and finance-control layer.
+This is moving the product toward a real receivables and finance-control layer rather than a document list with totals.
+
+## 🧾 Invoice Safety
+
+Invoice safety has become a separate progression theme rather than an afterthought.
+
+Recent hardening includes:
+
+- local invoices moved off `SharedPreferences` and into transactional SQLite/Drift row storage
+- legacy invoice cache migration into the database
+- direct fast-path invoice mutation queueing
+- cloud invoice writes now guarded against stale overwrite using ETag / `If-Match` style conflict handling
+
+Why it matters:
+
+Billing records are high-trust operational data. Silent overwrites are unacceptable in that layer.
 
 ## 🧠 LOLER And Review
 
@@ -104,7 +137,8 @@ Progression includes:
 - bounded concurrency on push and pull
 - safer id normalization across queued work
 - better handling of larger queues and retry-heavy states
+- fast-path propagation for higher-value operational records
 
 Why it matters:
 
-This work matters most on real devices, where offline and degraded-network behavior define trust in the product.
+This work matters most on real devices, where degraded-network behavior and rapid edits define trust in the product.
