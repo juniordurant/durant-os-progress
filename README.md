@@ -6,7 +6,7 @@
 
 <p align="center">
   <img alt="Status" src="https://img.shields.io/badge/status-public%20progress%20tracker-0f766e?style=for-the-badge" />
-  <img alt="Release" src="https://img.shields.io/badge/current%20release-0.80.0%20(766)-111827?style=for-the-badge" />
+  <img alt="Release" src="https://img.shields.io/badge/current%20release-0.80.0%20(768)-111827?style=for-the-badge" />
   <img alt="Shape" src="https://img.shields.io/badge/shape-operations%20command%20system-1d4ed8?style=for-the-badge" />
   <img alt="Source" src="https://img.shields.io/badge/source-private%20implementation-f97316?style=for-the-badge" />
 </p>
@@ -34,7 +34,7 @@ This public repository is the clean window into that work. It tracks direction, 
 | Signal | Current state |
 | --- | --- |
 | Public repository | docs-only progress tracker |
-| Current documented release | `0.80.0 (766)` |
+| Current documented release | `0.80.0 (768)` |
 | Workflow tone | internal command system, not just admin software |
 | Finance momentum | transactions, expenses, receipts, invoice matching, accountant-pack export |
 | Field momentum | clearer engineer mobile flow with native receipt scanning |

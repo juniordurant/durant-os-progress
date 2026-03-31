@@ -2,13 +2,13 @@
 
 ## Current Release
 
-### 0.80.0 (766)
+### 0.80.0 (768)
 
 Date: March 31, 2026
 
 Status:
 
-- private app version moved to `0.80.0+766`
+- private app version moved to `0.80.0+768`
 - finance flow now includes transaction reconciliation, seeded expenses, cloud receipts, and accountant-pack export
 - matched invoice payments now carry invoice PDF evidence
 - engineer mobile receipt capture now includes native document scanning
