@@ -1,4 +1,4 @@
-# DurantOS Progress
+# DurantOS Progress 📡
 
 <p align="center">
   <img src="docs/progress-console.svg" alt="DurantOS progress console" width="100%" />
@@ -25,22 +25,22 @@
 
 DurantOS is an internal operating platform for Durant Lifts.
 
-This public repository is the clean window into that work. It tracks direction, maturity, and release momentum without exposing source code, infrastructure secrets, customer data, or private operating logic.
+This public repository is the clean window into that work. It tracks direction, maturity, and release momentum without exposing source code, infrastructure secrets, customer data, or private operating logic. It is the public progress board for a system that is becoming more operational, more connected, and more evidence-driven every release.
 
-> Updated March 31, 2026. The current visible push is finance command: transaction reconciliation, cloud receipts, mobile receipt scanning, and a cleaner accountant handoff.
+> Updated March 31, 2026. The current visible push is finance command: transaction reconciliation, cloud receipts, mobile receipt scanning, and a cleaner accountant handoff. Less spreadsheet drift, more operational gravity.
 
-## Snapshot
+## Snapshot 🎯
 
 | Signal | Current state |
 | --- | --- |
-| Public repository | docs-only progress tracker |
-| Current documented release | `0.80.0 (768)` |
-| Workflow tone | internal command system, not just admin software |
-| Finance momentum | transactions, expenses, receipts, invoice matching, accountant-pack export |
-| Field momentum | clearer engineer mobile flow with native receipt scanning |
-| Runtime direction | local-first client behavior with wider cloud-backed evidence and handoff |
+| Public repository 🪟 | docs-only progress tracker |
+| Current documented release 📦 | `0.80.0 (768)` |
+| Workflow tone 🧭 | internal command system, not just admin software |
+| Finance momentum 💸 | transactions, expenses, receipts, invoice matching, accountant-pack export |
+| Field momentum 🧰 | clearer engineer mobile flow with native receipt scanning |
+| Runtime direction ☁️ | local-first client behavior with wider cloud-backed evidence and handoff |
 
-## Finance Flight Deck
+## Finance Flight Deck 💸
 
 The finance layer has moved from “invoice list plus totals” toward a real operating loop:
 
@@ -51,9 +51,9 @@ The finance layer has moved from “invoice list plus totals” toward a real op
 - finance review can be staged for an accountant instead of staying as loose notes and files
 - the platform can now export an accountant pack with linked supporting documents
 
-That matters because year-end handoff, audit follow-up, and day-to-day bookkeeping all depend on evidence staying attached to the transaction chain.
+That matters because year-end handoff, audit follow-up, and day-to-day bookkeeping all depend on evidence staying attached to the transaction chain instead of disappearing into inboxes, folders, and memory.
 
-## Workflow Spine
+## Workflow Spine 🔗
 
 DurantOS is being shaped around the real chain of lift-service work:
 
@@ -70,16 +70,16 @@ flowchart LR
     I --> J["Accountant Review"]
 ```
 
-The goal is not just digitising paperwork. The goal is tightening the chain between planning, field delivery, review, billing, evidence capture, and follow-through.
+The goal is not just digitising paperwork. The goal is tightening the chain between planning, field delivery, review, billing, evidence capture, and follow-through so the whole system feels less like scattered tools and more like one operating loop.
 
-## Current Momentum
+## Current Momentum ⚡
 
 - office, field, finance, and portal workflows are increasingly sharing one data spine instead of passing loose files around
 - mobile engineers are no longer just completing jobs; they are contributing evidence into the same bookkeeping flow
 - billing workflows are now closer to an auditable record than a generated PDF archive
 - sync and recovery work continues to matter because this product is expected to survive real devices, real backlogs, and real interruptions
 
-## Platform Areas
+## Platform Areas 🧩
 
 The public view of the platform now spans:
 
@@ -92,7 +92,7 @@ The public view of the platform now spans:
 - document storage and portal publishing
 - sync, rollback, and audit-oriented platform work
 
-## Milestone Timeline
+## Milestone Timeline 🗓️
 
 | Date | Milestone | Directional impact |
 | --- | --- | --- |
@@ -102,7 +102,7 @@ The public view of the platform now spans:
 | March 27, 2026 | Sync runtime improvement | Queue flushing and sync throughput improved under backlog conditions |
 | March 25, 2026 | Finance and assisted workflow expansion | Finance capture, Outlook intake, payables, VAT automation, and LOLER intelligence moved forward together |
 
-## Product Direction
+## Product Direction 🚀
 
 DurantOS is increasingly acting like an internal command system rather than a single admin tool.
 
@@ -122,16 +122,16 @@ The platform now links:
 - documents
 - portal accounts
 
-That shared graph matters because real business work rarely starts and ends inside one screen or one team.
+That shared graph matters because real business work rarely starts and ends inside one screen or one team. The product is moving toward continuity: fewer dead ends, fewer detached records, more usable operational context.
 
-## Explore The Docs
+## Explore The Docs 📚
 
 - [Progression](docs/progression.md): workflow-by-workflow progression summary
 - [Releases](docs/releases.md): release and milestone log
 - [Product Shape](docs/product-shape.md): public summary of what DurantOS is becoming
 - [Notice](NOTICE.md): what is intentionally excluded
 
-## What Stays Private
+## What Stays Private 🔒
 
 This repository does not include:
 
@@ -143,4 +143,4 @@ This repository does not include:
 - app access instructions
 - internal operating procedures
 
-That boundary is deliberate. The purpose of this repository is progress visibility, not product exposure.
+That boundary is deliberate. The purpose of this repository is progress visibility, not product exposure. Enough signal to understand the direction, without handing over the machine room.
