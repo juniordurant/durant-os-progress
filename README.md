@@ -1,4 +1,4 @@
-# DurantOS Progress 📡
+# DurantOS Progress ⚙️✨
 
 <p align="center">
   <img src="docs/progress-console.svg" alt="DurantOS progress console" width="100%" />
@@ -7,55 +7,72 @@
 <p align="center">
   <img alt="Status" src="https://img.shields.io/badge/status-public%20progress%20tracker-0f766e?style=for-the-badge" />
   <img alt="Release" src="https://img.shields.io/badge/current%20release-0.80.0%20(768)-111827?style=for-the-badge" />
-  <img alt="Shape" src="https://img.shields.io/badge/shape-operations%20command%20system-1d4ed8?style=for-the-badge" />
-  <img alt="Source" src="https://img.shields.io/badge/source-private%20implementation-f97316?style=for-the-badge" />
+  <img alt="Focus" src="https://img.shields.io/badge/current%20focus-operations%20%2B%20routing%20%2B%20finance-2563eb?style=for-the-badge" />
+  <img alt="Repo" src="https://img.shields.io/badge/repo-shipping%20signal%20only-f97316?style=for-the-badge" />
 </p>
 
 <p align="center">
   <a href="#snapshot"><strong>Snapshot</strong></a>
   ·
-  <a href="#finance-flight-deck"><strong>Finance Flight Deck</strong></a>
+  <a href="#whats-moving"><strong>What's Moving</strong></a>
   ·
-  <a href="#workflow-spine"><strong>Workflow Spine</strong></a>
+  <a href="#workflow-graph"><strong>Workflow Graph</strong></a>
   ·
   <a href="#milestone-timeline"><strong>Milestone Timeline</strong></a>
   ·
   <a href="#explore-the-docs"><strong>Explore The Docs</strong></a>
 </p>
 
-DurantOS is an internal operating platform for Durant Lifts.
+<p align="center">
+  <strong>DurantOS</strong> is the internal command system being built for Durant Lifts.<br />
+  This repository is the public-facing progress layer: product shape, release momentum, and workflow direction without exposing the private implementation.
+</p>
 
-This public repository is the clean window into that work. It tracks direction, maturity, and release momentum without exposing source code, infrastructure secrets, customer data, or private operating logic. It is the public progress board for a system that is becoming more operational, more connected, and more evidence-driven every release.
+> Updated April 2, 2026. The current visible push is broader operations control, route coverage mapping, postcode-first address capture, and stronger finance follow-through.
 
-> Updated March 31, 2026. The current visible push is finance command: transaction reconciliation, cloud receipts, mobile receipt scanning, and a cleaner accountant handoff. Less spreadsheet drift, more operational gravity.
+## Snapshot
 
-## Snapshot 🎯
-
-| Signal | Current state |
+| Signal | Current read |
 | --- | --- |
-| Public repository 🪟 | docs-only progress tracker |
-| Current documented release 📦 | `0.80.0 (768)` |
-| Workflow tone 🧭 | internal command system, not just admin software |
-| Finance momentum 💸 | transactions, expenses, receipts, invoice matching, accountant-pack export |
-| Field momentum 🧰 | clearer engineer mobile flow with native receipt scanning |
-| Runtime direction ☁️ | local-first client behavior with wider cloud-backed evidence and handoff |
+| 🪟 Public repo shape | docs-only progress tracker |
+| 📦 Current documented release | `0.80.0 (768)` |
+| 🧭 Product identity | internal command system for lift operations |
+| 🗺️ Current visibility | route coverage maps, pinned site views, operational routing clarity |
+| 🏢 Data quality direction | postcode-first address lookup and cleaner site records |
+| 💸 Finance direction | reconciliation, receipts, invoice evidence, accountant-pack handoff |
+| ☁️ Runtime direction | local-first behaviour with wider cloud-backed evidence and coordination |
 
-## Finance Flight Deck 💸
+## What's Moving
 
-The finance layer has moved from “invoice list plus totals” toward a real operating loop:
+DurantOS is no longer just becoming a better admin tool. It is being shaped into one connected operating layer for office, field, finance, and review.
 
-- bank transactions can be imported, filtered, exported, and matched to invoices
-- invoice PDFs can now travel with matched payment transactions
-- outgoing transactions can seed the expense queue
-- receipts can be uploaded from engineer mobile and stored in the cloud
-- finance review can be staged for an accountant instead of staying as loose notes and files
-- the platform can now export an accountant pack with linked supporting documents
+### 🚦 Operations Surface
 
-That matters because year-end handoff, audit follow-up, and day-to-day bookkeeping all depend on evidence staying attached to the transaction chain instead of disappearing into inboxes, folders, and memory.
+- a clearer operations area is now part of the visible product shape
+- workflow ownership is becoming easier to scan across the business
+- the product is moving further toward day-to-day control, not just record storage
 
-## Workflow Spine 🔗
+### 🗺️ Routing And Coverage
 
-DurantOS is being shaped around the real chain of lift-service work:
+- route coverage is now easier to understand at a broader visual level
+- site pins give a faster read of how active routes are spread across the map
+- route views are moving from list-only management toward operational geography
+
+### 📮 Address Quality
+
+- postcode-first address lookup is now part of the capture direction
+- site and customer records are moving toward faster, cleaner address entry
+- better address quality improves routing, mapping, and downstream record confidence
+
+### 💸 Finance Follow-Through
+
+- transaction reconciliation, seeded expenses, cloud receipts, and accountant-pack export remain a major theme
+- invoice evidence is staying closer to payment and bookkeeping flow
+- the finance layer is becoming more usable as an operational control surface
+
+## Workflow Graph
+
+The product direction is about continuity between operational steps, not isolated screens.
 
 ```mermaid
 flowchart LR
@@ -63,84 +80,62 @@ flowchart LR
     B --> C["Unit"]
     C --> D["Job"]
     D --> E["Engineer"]
-    E --> F["Report"]
+    E --> F["Report / Review"]
     F --> G["Invoice"]
-    G --> H["Payment"]
-    H --> I["Expense / Receipt Evidence"]
-    I --> J["Accountant Review"]
+    G --> H["Payment / Transaction"]
+    H --> I["Receipt / Evidence"]
+    I --> J["Accountant / Office Follow-Through"]
 ```
 
-The goal is not just digitising paperwork. The goal is tightening the chain between planning, field delivery, review, billing, evidence capture, and follow-through so the whole system feels less like scattered tools and more like one operating loop.
+## Why It Matters
 
-## Current Momentum ⚡
+- 🧰 Engineers need speed, not friction
+- 🧑‍💼 Office staff need clearer control over live work
+- 💷 Finance needs evidence attached to the money trail
+- 🧾 Reviews and follow-up need to stay grounded in real records
+- 🔁 The whole platform needs to survive interruptions, retries, and real operational backlog
 
-- office, field, finance, and portal workflows are increasingly sharing one data spine instead of passing loose files around
-- mobile engineers are no longer just completing jobs; they are contributing evidence into the same bookkeeping flow
-- billing workflows are now closer to an auditable record than a generated PDF archive
-- sync and recovery work continues to matter because this product is expected to survive real devices, real backlogs, and real interruptions
-
-## Platform Areas 🧩
-
-The public view of the platform now spans:
-
-- customer, site, and unit records
-- office planning, dispatch, and job control
-- engineer mobile delivery
-- review and LOLER follow-up
-- quotes, invoices, and payment tracking
-- expenses, receipts, payables, and accountant handoff
-- document storage and portal publishing
-- sync, rollback, and audit-oriented platform work
-
-## Milestone Timeline 🗓️
+## Milestone Timeline
 
 | Date | Milestone | Directional impact |
 | --- | --- | --- |
-| March 31, 2026 | Finance command and accountant handoff | Transactions, expenses, receipts, invoice-PDF linking, accountant-pack export, and native receipt scanning pushed DurantOS further into a true finance operations surface |
+| April 2, 2026 | Operations surface, route coverage maps, and smarter address capture | Public progress now shows a broader operations view, more visual route coverage, and postcode-led address handling as the platform becomes easier to run day to day |
+| March 31, 2026 | Finance command and accountant handoff | Transactions, expenses, receipts, invoice-PDF linking, accountant-pack export, and native receipt scanning pushed DurantOS further into a real finance-control surface |
 | March 29, 2026 | Notifications, realtime sync expansion, and invoice safety hardening | Engineer push notifications, faster live propagation, safer invoice persistence, and guarded cloud invoice writes moved the platform closer to trusted operational execution |
 | March 28, 2026 | Dispatch workflow and broader platform progression | Jobs gained explicit dispatch and engineer response flow, while customer, finance, and extraction work expanded further |
 | March 27, 2026 | Sync runtime improvement | Queue flushing and sync throughput improved under backlog conditions |
 | March 25, 2026 | Finance and assisted workflow expansion | Finance capture, Outlook intake, payables, VAT automation, and LOLER intelligence moved forward together |
 
-## Product Direction 🚀
+## Public Product Shape
 
-DurantOS is increasingly acting like an internal command system rather than a single admin tool.
+The public view of DurantOS now spans:
 
-The platform now links:
+- 👥 customers, sites, and units
+- 🗓️ office planning, dispatch, and job control
+- 📱 engineer mobile delivery
+- 🧾 reporting, review, and LOLER follow-up
+- 💷 quotes, invoices, payments, and transaction flow
+- 🧳 expenses, receipts, and accountant handoff
+- 🗂️ document storage and portal publishing
+- 🔄 sync, rollback, and recovery-minded platform work
 
-- customers
-- sites
-- units
-- engineers
-- jobs
-- quotes
-- invoices
-- transactions
-- expenses
-- payables
-- contracts
-- documents
-- portal accounts
+## Explore The Docs
 
-That shared graph matters because real business work rarely starts and ends inside one screen or one team. The product is moving toward continuity: fewer dead ends, fewer detached records, more usable operational context.
+- [Progression](docs/progression.md) - workflow-by-workflow progression summary
+- [Releases](docs/releases.md) - release and milestone log
+- [Product Shape](docs/product-shape.md) - public summary of what DurantOS is becoming
+- [Notice](NOTICE.md) - what is intentionally excluded
 
-## Explore The Docs 📚
-
-- [Progression](docs/progression.md): workflow-by-workflow progression summary
-- [Releases](docs/releases.md): release and milestone log
-- [Product Shape](docs/product-shape.md): public summary of what DurantOS is becoming
-- [Notice](NOTICE.md): what is intentionally excluded
-
-## What Stays Private 🔒
+## What Stays Private
 
 This repository does not include:
 
 - application source code
 - backend source code
-- secrets, keys, or environment values
+- infrastructure secrets or environment values
 - deployment configuration
 - customer data
 - app access instructions
 - internal operating procedures
 
-That boundary is deliberate. The purpose of this repository is progress visibility, not product exposure. Enough signal to understand the direction, without handing over the machine room.
+That boundary is deliberate. This repo is here to show momentum, not expose the machine room.
