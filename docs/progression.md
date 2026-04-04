@@ -6,6 +6,21 @@ DurantOS started as a lightweight admin tool. It is now moving toward an interna
 
 The direction is not “more forms.” The direction is tighter coordination between planning, field work, notifications, review, billing, receipts, and accountant handoff.
 
+## Maintenance Coordination
+
+Maintenance progression is becoming easier to describe in operational terms.
+
+Recent progression includes:
+
+- clearer separation between planning space and engineer-route ownership
+- stronger maintenance-series continuity when work relates to specific lift units
+- better public signal that recurring maintenance is treated as an operational command problem, not just a calendar list
+- tighter visual hierarchy in the maintenance area so people can move between questions faster
+
+Why it matters:
+
+Recurring service work is one of the easiest places for confusion to become expensive. Clearer sequencing and ownership reduce hidden mistakes.
+
 ## Jobs And Field Delivery
 
 The jobs workflow has moved from a simpler assigned/completed model into a clearer office-to-field chain.
@@ -93,10 +108,25 @@ Progression includes:
 - transaction-seeded expense review queue
 - cloud-backed receipts that can be uploaded on mobile and reviewed on macOS
 - accountant-pack export for year-end or bookkeeping handoff
+- invoice-performance views that increasingly surface movement, exposure, and collection rhythm instead of only static totals
 
 Why it matters:
 
 This is moving the product toward a real finance-control layer rather than a document list with totals.
+
+## Product Confidence And Polish
+
+Public product confidence is now becoming part of the progression story.
+
+Progression includes:
+
+- stronger branded presentation at launch
+- cleaner visual framing around operational and finance-heavy areas
+- polish that supports clarity rather than competing with it
+
+Why it matters:
+
+Operational software still needs to feel intentional. Confidence, readability, and seriousness affect trust in the same way as raw capability.
 
 ## Invoice Safety
 

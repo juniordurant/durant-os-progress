@@ -39,11 +39,14 @@ The public direction is increasingly clear:
 
 - fewer disconnected handoffs
 - clearer field acknowledgement
+- clearer maintenance coordination
 - stronger finance control
+- richer finance signal
 - cloud-backed receipt evidence
 - more visible compliance follow-up
 - more reliable sync under real-world conditions
 - more reviewable document intelligence
+- stronger branded product confidence
 
 ## Why A Public Progress Repo Exists
 
