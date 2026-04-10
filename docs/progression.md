@@ -105,14 +105,17 @@ Progression includes:
 - staged invoice chase handling
 - payable and expense capture
 - Outlook-assisted finance intake
+- shared-mailbox receipt capture for finance evidence
 - transaction-seeded expense review queue
 - cloud-backed receipts that can be uploaded on mobile and reviewed on macOS
+- FreeAgent transaction sync and category visibility in the main transaction workspace
+- matched invoice export back into FreeAgent, including safer handling when the external transaction has already moved on
 - accountant-pack export for year-end or bookkeeping handoff
 - invoice-performance views that increasingly surface movement, exposure, and collection rhythm instead of only static totals
 
 Why it matters:
 
-This is moving the product toward a real finance-control layer rather than a document list with totals.
+This is moving the product toward a real finance-control layer rather than a document list with totals. The public shape now makes it easier to describe how DurantOS handles both internal finance evidence and external accounting-system follow-through.
 
 ## Product Confidence And Polish
 
@@ -122,6 +125,7 @@ Progression includes:
 
 - stronger branded presentation at launch
 - cleaner visual framing around operational and finance-heavy areas
+- more polished outward communication for customer-facing intake
 - polish that supports clarity rather than competing with it
 
 Why it matters:
@@ -138,6 +142,7 @@ Recent hardening includes:
 - legacy invoice cache migration into the database
 - direct fast-path invoice mutation queueing
 - cloud invoice writes guarded against stale overwrite using ETag or `If-Match` style conflict handling
+- bounded mobile startup recovery when local cache or schema state is messy
 
 Why it matters:
 

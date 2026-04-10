@@ -40,7 +40,10 @@
   <circle cx="270" cy="175" r="10" fill="#34D399"/>
 
   <text x="200" y="292" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700">DurantOS Progress</text>
-  <text x="200" y="336" fill="#93C5FD" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="600">Finance command, field delivery, portal flow, and cloud-backed handoff</text>
+  <text fill="#93C5FD" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="600">
+    <tspan x="200" y="336">Release 0.82.2 (775) • FreeAgent handoff, finance evidence,</tspan>
+    <tspan x="200" y="368">product polish, and resilience</tspan>
+  </text>
 
   <rect x="200" y="390" width="360" height="150" rx="28" fill="#081525" stroke="#22D3EE" stroke-opacity="0.28"/>
   <rect x="200" y="570" width="360" height="150" rx="28" fill="#081525" stroke="#34D399" stroke-opacity="0.28"/>
@@ -48,31 +51,34 @@
   <rect x="1000" y="390" width="360" height="150" rx="28" fill="#081525" stroke="#22D3EE" stroke-opacity="0.28"/>
   <rect x="1000" y="570" width="360" height="150" rx="28" fill="#081525" stroke="#FB7185" stroke-opacity="0.24"/>
 
-  <text x="230" y="432" fill="#67E8F9" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">FIELD</text>
-  <text x="230" y="472" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Receipt Scanner</text>
-  <text x="230" y="505" fill="#C7D2FE" font-family="Arial, Helvetica, sans-serif" font-size="20">Auto-crop mobile capture</text>
+  <text x="230" y="432" fill="#67E8F9" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">OUTWARD</text>
+  <text x="230" y="472" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Client Messaging</text>
+  <text x="230" y="505" fill="#C7D2FE" font-family="Arial, Helvetica, sans-serif" font-size="20">Branded intake email with clearer CTA</text>
 
-  <text x="230" y="612" fill="#6EE7B7" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">SYNC</text>
-  <text x="230" y="652" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Cloud Receipts</text>
-  <text x="230" y="685" fill="#D1FAE5" font-family="Arial, Helvetica, sans-serif" font-size="20">Shared across mobile and macOS</text>
+  <text x="230" y="612" fill="#6EE7B7" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">EVIDENCE</text>
+  <text x="230" y="652" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Shared Mailboxes</text>
+  <text x="230" y="685" fill="#D1FAE5" font-family="Arial, Helvetica, sans-serif" font-size="20">Receipt and invoice files closer to finance</text>
 
   <text x="630" y="432" fill="#FDBA74" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">FINANCE LOOP</text>
-  <text x="630" y="472" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700">Transactions → Expenses</text>
-  <text x="630" y="512" fill="#FED7AA" font-family="Arial, Helvetica, sans-serif" font-size="22">Seed outgoing spend, review queue, match receipts, export accountant pack.</text>
+  <text x="630" y="472" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700">DurantOS ↔ FreeAgent</text>
+  <text fill="#FED7AA" font-family="Arial, Helvetica, sans-serif" font-size="22">
+    <tspan x="630" y="512">Sync bank transactions, keep categories visible,</tspan>
+    <tspan x="630" y="540">match invoices, and send them back safely.</tspan>
+  </text>
   <path d="M650 570H910" stroke="url(#accentC)" stroke-width="10" stroke-linecap="round"/>
   <circle cx="690" cy="570" r="18" fill="#F97316"/>
   <circle cx="780" cy="570" r="18" fill="#FB923C"/>
   <circle cx="870" cy="570" r="18" fill="#FB7185"/>
-  <text x="650" y="625" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="21">Match invoice PDFs to payments</text>
-  <text x="650" y="660" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="21">Queue expenses for accountant review</text>
+  <text x="650" y="625" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="21">Handle already-explained transactions</text>
+  <text x="650" y="660" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="21">Keep sent rows visible for later analysis</text>
 
-  <text x="1030" y="432" fill="#67E8F9" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">PORTAL</text>
-  <text x="1030" y="472" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Customer Access</text>
-  <text x="1030" y="505" fill="#CFFAFE" font-family="Arial, Helvetica, sans-serif" font-size="20">Docs, auth, uploads</text>
+  <text x="1030" y="432" fill="#67E8F9" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">OPERATIONS</text>
+  <text x="1030" y="472" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Completed Job Flow</text>
+  <text x="1030" y="505" fill="#CFFAFE" font-family="Arial, Helvetica, sans-serif" font-size="20">Follow-up quotes can start from the job</text>
 
-  <text x="1030" y="612" fill="#FDA4AF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">HANDOFF</text>
-  <text x="1030" y="652" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Accountant Pack</text>
-  <text x="1030" y="685" fill="#FFE4E6" font-family="Arial, Helvetica, sans-serif" font-size="20">CSV + linked PDFs in one export</text>
+  <text x="1030" y="612" fill="#FDA4AF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">RUNTIME</text>
+  <text x="1030" y="652" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Startup Recovery</text>
+  <text x="1030" y="685" fill="#FFE4E6" font-family="Arial, Helvetica, sans-serif" font-size="20">Safer mobile launch when local state is messy</text>
 
-  <text x="200" y="770" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="20">Public progress tracker for a private operating system</text>
+  <text x="200" y="770" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="20">Public progress tracker for a private operating system • April 11, 2026 snapshot</text>
 </svg>

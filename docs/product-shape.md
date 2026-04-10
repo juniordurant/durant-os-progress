@@ -41,8 +41,10 @@ The public direction is increasingly clear:
 - clearer field acknowledgement
 - clearer maintenance coordination
 - stronger finance control
+- more visible external accounting handoff
 - richer finance signal
 - cloud-backed receipt evidence
+- shared-mailbox evidence intake
 - more visible compliance follow-up
 - more reliable sync under real-world conditions
 - more reviewable document intelligence
