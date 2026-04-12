@@ -6,8 +6,8 @@
 
 <p align="center">
   <img alt="Status" src="https://img.shields.io/badge/status-public%20progress%20tracker-0f766e?style=for-the-badge" />
-  <img alt="Release" src="https://img.shields.io/badge/current%20release-0.82.2%20(775)-111827?style=for-the-badge" />
-  <img alt="Focus" src="https://img.shields.io/badge/current%20focus-freeagent%20handoff%20%2B%20evidence%20capture%20%2B%20resilience-2563eb?style=for-the-badge" />
+  <img alt="Release" src="https://img.shields.io/badge/current%20release-0.82.3%20(776)-111827?style=for-the-badge" />
+  <img alt="Focus" src="https://img.shields.io/badge/current%20focus-invoice%20payments%20%2B%20template%20governance%20%2B%20resilience-2563eb?style=for-the-badge" />
   <img alt="Repo" src="https://img.shields.io/badge/repo-public%20shipping%20signal-f97316?style=for-the-badge" />
 </p>
 
@@ -32,16 +32,16 @@
   This repository is the public-facing progress layer: product shape, release momentum, workflow direction, and shipping signal without exposing the private implementation.
 </p>
 
-> Updated April 11, 2026. The current visible push is live FreeAgent handoff, shared-mailbox finance evidence capture, more polished outward communication, and safer mobile recovery around the same local-first operational core.
+> Updated April 13, 2026. The current visible push is hosted invoice payment flow, clearer template governance, safer billing-reference recovery, and stronger sync resilience around the same local-first operational core.
 
 ## Snapshot
 
 | Signal | Current read | Why it matters |
 | --- | --- | --- |
 | 🪟 Public repo shape | docs-only progress tracker | this repo is for direction and momentum, not implementation |
-| 📦 Current documented release | `0.82.2 (775)` | the platform keeps moving in small, real shipping steps |
+| 📦 Current documented release | `0.82.3 (776)` | the platform keeps moving in small, real shipping steps |
 | 🧭 Product identity | internal command system for lift operations | the aim is operational control, not generic admin software |
-| 💸 Finance direction | FreeAgent sync, transaction matching, receipt evidence, and accountant-ready follow-through | money trails need clarity and trust |
+| 💸 Finance direction | hosted invoice payment flow, transaction matching, evidence capture, and accountant-ready follow-through | money trails need clarity and trust |
 | 🛠️ Operations direction | maintenance control, route ownership, dispatch clarity, and planner readability | repeat work needs visible coordination |
 | 📬 Customer-facing direction | clearer documents, safer delivery paths, and more polished client messages | polished output matters when clients are reading it |
 | ☁️ Runtime direction | local-first behaviour backed by wider cloud support | speed and resilience have to coexist |
@@ -50,29 +50,29 @@
 
 The latest public-facing read of DurantOS now emphasises four things at once:
 
-### 💸 FreeAgent handoff
+### 💸 Hosted invoice payment flow
 
-- the public view now shows DurantOS treating FreeAgent as a live part of the finance loop rather than a future placeholder
-- synced bank transactions, invoice export, and accounting-category visibility are now part of the product story
-- this matters because accountant handoff becomes more credible when the external system is part of the workflow, not an afterthought
+- the public view now shows DurantOS pushing further past invoice creation and into the payment journey itself
+- hosted payment options, payment-state visibility, and clearer client follow-through are now part of the product story
+- this matters because invoicing feels more credible when collection and status are treated as product behaviour, not an external mystery
 
-### 📎 Finance evidence capture
+### 🧾 Template governance and outward consistency
 
-- receipt and supporting-document capture is moving closer to the transaction flow that needs it
-- the public direction now includes shared-mailbox intake as well as field capture
-- this matters because finance evidence needs to arrive in the right place quickly, not sit in disconnected inboxes
+- the public read now includes a clearer review path for the emails and document templates the product presents outwardly
+- template visibility is becoming part of product quality, not only an internal implementation concern
+- this matters because trust in a serious operations platform depends on the quality and consistency of the messages and documents clients receive
 
-### 🛠️ Maintenance coordination
+### 🔢 Billing-record trust
 
-- recurring service work is being shaped into a clearer command flow
-- maintenance sequencing, route ownership, and planner clarity are becoming easier to reason about
-- the platform is moving further away from "a list of jobs" and closer to "who owns the next move?"
+- invoice references and billing-state recovery are being treated as trust problems rather than small formatting details
+- the public direction now reflects safer handling when older or malformed state tries to leak into current billing workflows
+- this matters because invoice numbering and payment state need to feel dependable to both office users and clients
 
-### 📬 Product polish with purpose
+### 🛟 Resilience where the edges show
 
-- the product is gaining a more intentional branded feel in the places customers and office users actually touch
-- outward communication now reads cleaner and more trustworthy, not just more decorative
-- the goal is a surface that feels serious, modern, and unmistakably Durant
+- the platform is continuing to harden around interruptions, stale local state, and broken cache edges
+- recovery work is still visible because a local-first system is only credible when it survives bad-device moments
+- the goal is operational confidence, not just more features on paper
 
 ## Signal Board
 
@@ -83,8 +83,8 @@ DurantOS is not just getting broader. It is getting more connected.
 | 🏗️ Operations core | Live | customers, sites, units, jobs, planners, and route ownership are all clearly part of the platform’s day-to-day identity |
 | 🧑‍🔧 Engineer delivery | Live | mobile execution, acknowledgement, and field follow-through remain central to the product story |
 | 🛠️ Maintenance command | Hardening | recurring servicing, planner clarity, and unit-aware control are becoming more visible |
-| 💼 Commercial and invoicing | Live | quotes, invoices, and document delivery are a stable public part of the product shape |
-| 💸 Accounts workspace | Hardening | transaction review, FreeAgent handoff, receipt evidence, exports, and performance signal are now a bigger theme |
+| 💼 Commercial and invoicing | Live | quotes, invoices, hosted payment flow, and document delivery are a stable public part of the product shape |
+| 💸 Accounts workspace | Hardening | transaction review, payment collection, evidence, exports, and performance signal are now a bigger theme |
 | 📬 Portal and messaging | Live | customer-facing document access and communication flow remain important to the story |
 | 🔄 Sync and recovery | Hardening | resilience, rollback, and safer multi-device behaviour still matter because this is real operational software |
 
@@ -116,6 +116,7 @@ flowchart LR
 
 | Date | Milestone | Directional impact |
 | --- | --- | --- |
+| April 13, 2026 | Invoice payments, template governance, and resilience hardening | The public view now shows DurantOS moving further into invoice collection, making outward templates easier to review, and treating billing and sync recovery as visible product quality work |
 | April 11, 2026 | FreeAgent handoff, evidence capture, and outward polish | The public view now shows DurantOS treating external accounting handoff as live product behaviour, bringing receipt evidence closer to transaction handling, and presenting a more polished customer-facing tone |
 | April 5, 2026 | Finance insight, maintenance coordination, and branded shell polish | The public view now shows DurantOS becoming sharper in how it reads invoice performance, clearer in how it frames recurring maintenance control, and more intentional in overall product presentation |
 | April 2, 2026 | Operations surface, route coverage maps, and smarter address capture | Public progress began showing a broader operations view, more visual route coverage, and postcode-led address handling as the platform became easier to run day to day |

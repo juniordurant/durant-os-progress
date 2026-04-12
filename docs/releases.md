@@ -2,23 +2,24 @@
 
 ## Current Release
 
-### 0.82.2 (775)
+### 0.82.3 (776)
 
-Date: April 11, 2026
+Date: April 13, 2026
 
 Status:
 
-- private app version moved to `0.82.2+775`
-- finance direction now visibly includes live FreeAgent transaction handoff rather than only internal reconciliation signal
-- synced transaction categories, invoice export, and accountant-facing flow are represented more clearly in the public product story
-- evidence capture now reads as a joined-up workflow across field receipts, shared mailboxes, and transaction follow-through
-- customer-facing polish now includes branded intake communication, not just in-app visual confidence
-- current public progress materials now reflect a more connected story across finance handoff, evidence capture, resilience, and outward product quality
+- private app version moved to `0.82.3+776`
+- finance direction now visibly includes hosted invoice payment flow rather than stopping at invoice issue and matching
+- outward template governance is represented more clearly through the public story around email and document consistency
+- invoice-reference recovery and safer billing-state handling are now part of the visible quality narrative rather than hidden repair work
+- sync resilience now includes better recovery from malformed local cache edges, which matters for a local-first product read
+- current public progress materials now reflect a more connected story across invoice collection, template confidence, and resilience hardening
 
 ## Recent Milestone Log
 
 | Date | Milestone | What moved |
 | --- | --- | --- |
+| April 13, 2026 | Invoice payments, template governance, and resilience hardening | Hosted invoice payment flow, clearer outward-template stewardship, safer invoice-reference recovery, and stronger sync resilience moved the product story toward more trustworthy collection and recovery behaviour |
 | April 11, 2026 | FreeAgent handoff, evidence capture, and outward polish | FreeAgent transaction sync and invoice handoff became part of the public read, evidence capture moved closer to the finance workflow, and branded customer communication became more visible |
 | April 5, 2026 | Finance insight, maintenance coordination, and branded shell polish | Invoice signal, recurring-maintenance clarity, and a more intentional product shell made the platform read as sharper, more controlled, and more mature without exposing private implementation details |
 | March 31, 2026 | Finance command and accountant handoff | Transactions, expenses, invoice matching, receipt cloud storage, accountant-pack export, and document-scanner capture moved the platform toward a real bookkeeping and audit-ready flow |
