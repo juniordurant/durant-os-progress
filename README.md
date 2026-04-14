@@ -6,8 +6,8 @@
 
 <p align="center">
   <img alt="Status" src="https://img.shields.io/badge/status-public%20progress%20tracker-0f766e?style=for-the-badge" />
-  <img alt="Release" src="https://img.shields.io/badge/current%20release-0.82.3%20(776)-111827?style=for-the-badge" />
-  <img alt="Focus" src="https://img.shields.io/badge/current%20focus-invoice%20payments%20%2B%20template%20governance%20%2B%20resilience-2563eb?style=for-the-badge" />
+  <img alt="Release" src="https://img.shields.io/badge/current%20release-0.82.4%20(777)-111827?style=for-the-badge" />
+  <img alt="Focus" src="https://img.shields.io/badge/current%20focus-document%20quality%20%2B%20template%20polish%20%2B%20safer%20fallbacks-2563eb?style=for-the-badge" />
   <img alt="Repo" src="https://img.shields.io/badge/repo-public%20shipping%20signal-f97316?style=for-the-badge" />
 </p>
 
@@ -32,14 +32,14 @@
   This repository is the public-facing progress layer: product shape, release momentum, workflow direction, and shipping signal without exposing the private implementation.
 </p>
 
-> Updated April 13, 2026. The current visible push is hosted invoice payment flow, clearer template governance, safer billing-reference recovery, and stronger sync resilience around the same local-first operational core.
+> Updated April 15, 2026. The current visible push is stronger quote and invoice documents, cleaner outward templates, steadier preview behaviour, and safer fallback handling around the same local-first operational core.
 
 ## Snapshot
 
 | Signal | Current read | Why it matters |
 | --- | --- | --- |
 | 🪟 Public repo shape | docs-only progress tracker | this repo is for direction and momentum, not implementation |
-| 📦 Current documented release | `0.82.3 (776)` | the platform keeps moving in small, real shipping steps |
+| 📦 Current documented release | `0.82.4 (777)` | the platform keeps moving in small, real shipping steps |
 | 🧭 Product identity | internal command system for lift operations | the aim is operational control, not generic admin software |
 | 💸 Finance direction | hosted invoice payment flow, transaction matching, evidence capture, and accountant-ready follow-through | money trails need clarity and trust |
 | 🛠️ Operations direction | maintenance control, route ownership, dispatch clarity, and planner readability | repeat work needs visible coordination |
@@ -50,29 +50,29 @@
 
 The latest public-facing read of DurantOS now emphasises four things at once:
 
-### 💸 Hosted invoice payment flow
+### 📄 Commercial document quality
 
-- the public view now shows DurantOS pushing further past invoice creation and into the payment journey itself
-- hosted payment options, payment-state visibility, and clearer client follow-through are now part of the product story
-- this matters because invoicing feels more credible when collection and status are treated as product behaviour, not an external mystery
+- the public view now shows DurantOS paying more attention to how quotes and invoices actually read when they reach a client
+- document hierarchy, totals, payment details, and branded presentation are becoming more deliberate parts of the product story
+- this matters because commercial trust is shaped by the paperwork as much as the workflow behind it
 
-### 🧾 Template governance and outward consistency
+### 🧾 Template polish and outward consistency
 
-- the public read now includes a clearer review path for the emails and document templates the product presents outwardly
-- template visibility is becoming part of product quality, not only an internal implementation concern
-- this matters because trust in a serious operations platform depends on the quality and consistency of the messages and documents clients receive
+- the public read now reflects cleaner mailer templates, signatures, and preview surfaces rather than treating documents as purely back-office implementation details
+- outward consistency is becoming part of the product’s visible quality bar
+- this matters because clients and office users judge the system through the emails and PDFs it produces
 
-### 🔢 Billing-record trust
+### 🖥️ Preview and fallback stability
 
-- invoice references and billing-state recovery are being treated as trust problems rather than small formatting details
-- the public direction now reflects safer handling when older or malformed state tries to leak into current billing workflows
-- this matters because invoice numbering and payment state need to feel dependable to both office users and clients
+- the platform is now visibly improving how reference previews behave on desktop and how supporting surfaces fail when third-party services reject a request
+- calmer fallback handling is becoming part of the quality story rather than hidden cleanup work
+- this matters because trust drops quickly when supporting surfaces look brittle or noisy
 
-### 🛟 Resilience where the edges show
+### 🛠️ Operational polish around the edges
 
-- the platform is continuing to harden around interruptions, stale local state, and broken cache edges
-- recovery work is still visible because a local-first system is only credible when it survives bad-device moments
-- the goal is operational confidence, not just more features on paper
+- the visible direction now includes typography consistency, cleaner review surfaces, and less friction in the smaller parts of the workflow
+- this keeps the platform feeling maintained rather than only expanded
+- the goal is operational confidence, not just more feature count
 
 ## Signal Board
 
@@ -83,7 +83,7 @@ DurantOS is not just getting broader. It is getting more connected.
 | 🏗️ Operations core | Live | customers, sites, units, jobs, planners, and route ownership are all clearly part of the platform’s day-to-day identity |
 | 🧑‍🔧 Engineer delivery | Live | mobile execution, acknowledgement, and field follow-through remain central to the product story |
 | 🛠️ Maintenance command | Hardening | recurring servicing, planner clarity, and unit-aware control are becoming more visible |
-| 💼 Commercial and invoicing | Live | quotes, invoices, hosted payment flow, and document delivery are a stable public part of the product shape |
+| 💼 Commercial and invoicing | Live | quotes, invoices, polished PDFs, and document delivery are a stable public part of the product shape |
 | 💸 Accounts workspace | Hardening | transaction review, payment collection, evidence, exports, and performance signal are now a bigger theme |
 | 📬 Portal and messaging | Live | customer-facing document access and communication flow remain important to the story |
 | 🔄 Sync and recovery | Hardening | resilience, rollback, and safer multi-device behaviour still matter because this is real operational software |
@@ -116,6 +116,7 @@ flowchart LR
 
 | Date | Milestone | Directional impact |
 | --- | --- | --- |
+| April 15, 2026 | Document quality, template polish, and safer fallbacks | The public view now shows DurantOS improving the quality of quote and invoice documents, tightening outward template presentation, and handling supporting-map failures more gracefully |
 | April 13, 2026 | Invoice payments, template governance, and resilience hardening | The public view now shows DurantOS moving further into invoice collection, making outward templates easier to review, and treating billing and sync recovery as visible product quality work |
 | April 11, 2026 | FreeAgent handoff, evidence capture, and outward polish | The public view now shows DurantOS treating external accounting handoff as live product behaviour, bringing receipt evidence closer to transaction handling, and presenting a more polished customer-facing tone |
 | April 5, 2026 | Finance insight, maintenance coordination, and branded shell polish | The public view now shows DurantOS becoming sharper in how it reads invoice performance, clearer in how it frames recurring maintenance control, and more intentional in overall product presentation |

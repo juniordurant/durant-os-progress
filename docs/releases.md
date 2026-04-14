@@ -2,23 +2,24 @@
 
 ## Current Release
 
-### 0.82.3 (776)
+### 0.82.4 (777)
 
-Date: April 13, 2026
+Date: April 15, 2026
 
 Status:
 
-- private app version moved to `0.82.3+776`
-- finance direction now visibly includes hosted invoice payment flow rather than stopping at invoice issue and matching
-- outward template governance is represented more clearly through the public story around email and document consistency
-- invoice-reference recovery and safer billing-state handling are now part of the visible quality narrative rather than hidden repair work
-- sync resilience now includes better recovery from malformed local cache edges, which matters for a local-first product read
-- current public progress materials now reflect a more connected story across invoice collection, template confidence, and resilience hardening
+- private app version moved to `0.82.4+777`
+- quote and invoice PDFs now read more like deliberate client documents and less like raw generated output
+- outward email, signature, and template presentation has been tightened so the communication layer feels more consistent
+- preview surfaces now behave more calmly, including a better default document scale and steadier HTML preview handling
+- static map fallback handling is now safer when Google rejects preview image requests
+- current public progress materials now reflect a more document-focused and outward-polish oriented release story
 
 ## Recent Milestone Log
 
 | Date | Milestone | What moved |
 | --- | --- | --- |
+| April 15, 2026 | Document quality, template polish, and safer fallbacks | Quote and invoice PDF design improved, outward templates were polished, preview behaviour became steadier, and static map failures started degrading more cleanly |
 | April 13, 2026 | Invoice payments, template governance, and resilience hardening | Hosted invoice payment flow, clearer outward-template stewardship, safer invoice-reference recovery, and stronger sync resilience moved the product story toward more trustworthy collection and recovery behaviour |
 | April 11, 2026 | FreeAgent handoff, evidence capture, and outward polish | FreeAgent transaction sync and invoice handoff became part of the public read, evidence capture moved closer to the finance workflow, and branded customer communication became more visible |
 | April 5, 2026 | Finance insight, maintenance coordination, and branded shell polish | Invoice signal, recurring-maintenance clarity, and a more intentional product shell made the platform read as sharper, more controlled, and more mature without exposing private implementation details |
