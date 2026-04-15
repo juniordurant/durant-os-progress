@@ -19,6 +19,7 @@ Status:
 
 | Date | Milestone | What moved |
 | --- | --- | --- |
+| April 15, 2026 | Delivery integrity, follow-on flow, and operator reference access | Job-report sends now stay closer to the latest review state, completed work can seed follow-on jobs more cleanly, built-in RAMS and intake context are easier to reach, and desktop launch feels more deliberate |
 | April 15, 2026 | Document quality, template polish, and safer fallbacks | Quote and invoice PDF design improved, outward templates were polished, preview behaviour became steadier, and static map failures started degrading more cleanly |
 | April 13, 2026 | Invoice payments, template governance, and resilience hardening | Hosted invoice payment flow, clearer outward-template stewardship, safer invoice-reference recovery, and stronger sync resilience moved the product story toward more trustworthy collection and recovery behaviour |
 | April 11, 2026 | FreeAgent handoff, evidence capture, and outward polish | FreeAgent transaction sync and invoice handoff became part of the public read, evidence capture moved closer to the finance workflow, and branded customer communication became more visible |

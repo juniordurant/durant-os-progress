@@ -34,6 +34,8 @@ Recent progression includes:
 - required decline reasons so refused jobs return to office review
 - office workflow buckets for active, dispatched, declined, completed, and finished work
 - undispatch support when work needs to return to dispatch planning
+- completed jobs can now seed follow-on work with the same site, customer, and lift-unit context
+- job-report delivery is being tightened so a fresh send is more closely tied to the latest reviewed PDF state
 
 Why it matters:
 
@@ -85,6 +87,8 @@ Progression includes:
 - separate communication and accounts contact paths
 - website-originated customer intake records
 - intake approval that can create both the customer record and linked service sites
+- customer records now retain and surface the original intake trail more visibly inside the details view
+- customer labels are getting cleaner where company and individual naming overlap
 
 Why it matters:
 
@@ -127,6 +131,9 @@ Progression includes:
 - cleaner visual framing around operational and finance-heavy areas
 - more polished outward communication for customer-facing intake
 - polish that supports clarity rather than competing with it
+- calmer desktop startup behaviour for day-to-day operator use
+- built-in RAMS preview access rather than treating core reference material as something outside the app
+- lightweight cleanup guardrails around legacy-heavy screens so structure can improve without forcing a rewrite
 
 Why it matters:
 

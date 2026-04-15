@@ -41,8 +41,8 @@
 
   <text x="200" y="292" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700">DurantOS Progress</text>
   <text fill="#93C5FD" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="600">
-    <tspan x="200" y="336">Release 0.82.2 (775) • FreeAgent handoff, finance evidence,</tspan>
-    <tspan x="200" y="368">product polish, and resilience</tspan>
+    <tspan x="200" y="336">Working snapshot • fresher job-report sends, follow-on flow,</tspan>
+    <tspan x="200" y="368">reference access, and calmer desktop startup</tspan>
   </text>
 
   <rect x="200" y="390" width="360" height="150" rx="28" fill="#081525" stroke="#22D3EE" stroke-opacity="0.28"/>
@@ -52,33 +52,33 @@
   <rect x="1000" y="570" width="360" height="150" rx="28" fill="#081525" stroke="#FB7185" stroke-opacity="0.24"/>
 
   <text x="230" y="432" fill="#67E8F9" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">OUTWARD</text>
-  <text x="230" y="472" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Client Messaging</text>
-  <text x="230" y="505" fill="#C7D2FE" font-family="Arial, Helvetica, sans-serif" font-size="20">Branded intake email with clearer CTA</text>
+  <text x="230" y="472" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Fresh Job Reports</text>
+  <text x="230" y="505" fill="#C7D2FE" font-family="Arial, Helvetica, sans-serif" font-size="20">Sent PDFs stay closer to the latest review state</text>
 
   <text x="230" y="612" fill="#6EE7B7" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">EVIDENCE</text>
-  <text x="230" y="652" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Shared Mailboxes</text>
-  <text x="230" y="685" fill="#D1FAE5" font-family="Arial, Helvetica, sans-serif" font-size="20">Receipt and invoice files closer to finance</text>
+  <text x="230" y="652" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Built-in RAMS</text>
+  <text x="230" y="685" fill="#D1FAE5" font-family="Arial, Helvetica, sans-serif" font-size="20">Reference material is easier to reach inside the app</text>
 
-  <text x="630" y="432" fill="#FDBA74" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">FINANCE LOOP</text>
-  <text x="630" y="472" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700">DurantOS ↔ FreeAgent</text>
+  <text x="630" y="432" fill="#FDBA74" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">CUSTOMER MEMORY</text>
+  <text x="630" y="472" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700">Customer Intake Context</text>
   <text fill="#FED7AA" font-family="Arial, Helvetica, sans-serif" font-size="22">
-    <tspan x="630" y="512">Sync bank transactions, keep categories visible,</tspan>
-    <tspan x="630" y="540">match invoices, and send them back safely.</tspan>
+    <tspan x="630" y="512">Keep the original submission trail visible,</tspan>
+    <tspan x="630" y="540">clean up naming, and reduce context loss.</tspan>
   </text>
   <path d="M650 570H910" stroke="url(#accentC)" stroke-width="10" stroke-linecap="round"/>
   <circle cx="690" cy="570" r="18" fill="#F97316"/>
   <circle cx="780" cy="570" r="18" fill="#FB923C"/>
   <circle cx="870" cy="570" r="18" fill="#FB7185"/>
-  <text x="650" y="625" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="21">Handle already-explained transactions</text>
-  <text x="650" y="660" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="21">Keep sent rows visible for later analysis</text>
+  <text x="650" y="625" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="21">Customer details keep more of the original story</text>
+  <text x="650" y="660" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="21">Less need to chase what a site first submitted</text>
 
   <text x="1030" y="432" fill="#67E8F9" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">OPERATIONS</text>
-  <text x="1030" y="472" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Completed Job Flow</text>
-  <text x="1030" y="505" fill="#CFFAFE" font-family="Arial, Helvetica, sans-serif" font-size="20">Follow-up quotes can start from the job</text>
+  <text x="1030" y="472" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Follow-on Jobs</text>
+  <text x="1030" y="505" fill="#CFFAFE" font-family="Arial, Helvetica, sans-serif" font-size="20">Completed work can seed the next action cleanly</text>
 
   <text x="1030" y="612" fill="#FDA4AF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">RUNTIME</text>
-  <text x="1030" y="652" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Startup Recovery</text>
-  <text x="1030" y="685" fill="#FFE4E6" font-family="Arial, Helvetica, sans-serif" font-size="20">Safer mobile launch when local state is messy</text>
+  <text x="1030" y="652" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Desktop Startup</text>
+  <text x="1030" y="685" fill="#FFE4E6" font-family="Arial, Helvetica, sans-serif" font-size="20">Launch now feels calmer and more deliberate on desktop</text>
 
-  <text x="200" y="770" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="20">Public progress tracker for a private operating system • April 11, 2026 snapshot</text>
+  <text x="200" y="770" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="20">Public progress tracker for a private operating system • April 15, 2026 snapshot</text>
 </svg>

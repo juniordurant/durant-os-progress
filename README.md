@@ -7,7 +7,7 @@
 <p align="center">
   <img alt="Status" src="https://img.shields.io/badge/status-public%20progress%20tracker-0f766e?style=for-the-badge" />
   <img alt="Release" src="https://img.shields.io/badge/current%20release-0.82.4%20(777)-111827?style=for-the-badge" />
-  <img alt="Focus" src="https://img.shields.io/badge/current%20focus-document%20quality%20%2B%20template%20polish%20%2B%20safer%20fallbacks-2563eb?style=for-the-badge" />
+  <img alt="Focus" src="https://img.shields.io/badge/current%20focus-job%20delivery%20%2B%20reference%20access%20%2B%20operational%20polish-2563eb?style=for-the-badge" />
   <img alt="Repo" src="https://img.shields.io/badge/repo-public%20shipping%20signal-f97316?style=for-the-badge" />
 </p>
 
@@ -32,7 +32,7 @@
   This repository is the public-facing progress layer: product shape, release momentum, workflow direction, and shipping signal without exposing the private implementation.
 </p>
 
-> Updated April 15, 2026. The current visible push is stronger quote and invoice documents, cleaner outward templates, steadier preview behaviour, and safer fallback handling around the same local-first operational core.
+> Updated April 15, 2026. The current visible push is fresher job-report delivery, follow-on job continuity, built-in reference access, richer customer-intake context, and calmer desktop startup around the same local-first operational core.
 
 ## Snapshot
 
@@ -50,27 +50,27 @@
 
 The latest public-facing read of DurantOS now emphasises four things at once:
 
-### 📄 Commercial document quality
+### 📬 Delivery integrity around completed work
 
-- the public view now shows DurantOS paying more attention to how quotes and invoices actually read when they reach a client
-- document hierarchy, totals, payment details, and branded presentation are becoming more deliberate parts of the product story
-- this matters because commercial trust is shaped by the paperwork as much as the workflow behind it
+- the public view now shows DurantOS treating the sent job report as a live operational artefact rather than a stale attachment cached earlier in the flow
+- review surfaces and sent output are being kept closer together so office users can trust what the customer receives
+- this matters because delivery confidence drops quickly when a preview and a sent document appear to disagree
 
-### 🧾 Template polish and outward consistency
+### 🔁 Follow-on continuity instead of workflow dead ends
 
-- the public read now reflects cleaner mailer templates, signatures, and preview surfaces rather than treating documents as purely back-office implementation details
-- outward consistency is becoming part of the product’s visible quality bar
-- this matters because clients and office users judge the system through the emails and PDFs it produces
+- completed work can now seed the next job more naturally, keeping site, customer, and unit context closer to the next action
+- the public story is becoming less about isolated records and more about one operational step feeding the next
+- this matters because repeat or related lift work should not force office users to start again from a blank form
 
-### 🖥️ Preview and fallback stability
+### 📚 Reference access and customer context
 
-- the platform is now visibly improving how reference previews behave on desktop and how supporting surfaces fail when third-party services reject a request
-- calmer fallback handling is becoming part of the quality story rather than hidden cleanup work
-- this matters because trust drops quickly when supporting surfaces look brittle or noisy
+- DurantOS is showing more of the supporting operational material inside the product itself, including built-in RAMS access and clearer customer-intake history
+- customer records are increasingly behaving like working context, not just a shallow contact card
+- this matters because admin users need the original submission trail and reference material close to the live record
 
-### 🛠️ Operational polish around the edges
+### 🖥️ Desktop and operator polish
 
-- the visible direction now includes typography consistency, cleaner review surfaces, and less friction in the smaller parts of the workflow
+- the visible direction now includes calmer desktop launch behaviour, cleaner labels, and lightweight cleanup guardrails around large legacy screens
 - this keeps the platform feeling maintained rather than only expanded
 - the goal is operational confidence, not just more feature count
 
@@ -116,6 +116,7 @@ flowchart LR
 
 | Date | Milestone | Directional impact |
 | --- | --- | --- |
+| April 15, 2026 | Delivery integrity, follow-on flow, and operator reference access | The public view now shows DurantOS keeping sent job reports closer to the latest review state, letting completed jobs seed follow-on work more cleanly, surfacing built-in RAMS and intake context, and adding calmer desktop startup behaviour |
 | April 15, 2026 | Document quality, template polish, and safer fallbacks | The public view now shows DurantOS improving the quality of quote and invoice documents, tightening outward template presentation, and handling supporting-map failures more gracefully |
 | April 13, 2026 | Invoice payments, template governance, and resilience hardening | The public view now shows DurantOS moving further into invoice collection, making outward templates easier to review, and treating billing and sync recovery as visible product quality work |
 | April 11, 2026 | FreeAgent handoff, evidence capture, and outward polish | The public view now shows DurantOS treating external accounting handoff as live product behaviour, bringing receipt evidence closer to transaction handling, and presenting a more polished customer-facing tone |
